@@ -1,5 +1,9 @@
 # Code refactored from https://docs.streamlit.io/knowledge-base/tutorials/build-conversational-apps
 
+import pysqlite3
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import datetime
 import openai
 import streamlit as st
@@ -19,8 +23,6 @@ from langchain.chains import RetrievalQA,  ConversationalRetrievalChain
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate, SystemMessagePromptTemplate
 
-import sqlite3
-print(sqlite3.sqlite_version)
 
 SYSTEM_MESSAGE = {
     "role": "system",
