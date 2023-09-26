@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df548415-f171-4b7f-b3cf-190219a159a2" name="Changes" comment="fix sqlite3 issue">
-      <change afterPath="$PROJECT_DIR$/chroma/3ace649a-b9d3-4bbe-9725-b7de7a49735e/data_level0.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chroma/3ace649a-b9d3-4bbe-9725-b7de7a49735e/header.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chroma/3ace649a-b9d3-4bbe-9725-b7de7a49735e/length.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chroma/3ace649a-b9d3-4bbe-9725-b7de7a49735e/link_lists.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chroma/chroma.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streamlit_app.py" afterDir="false" />
+    <list default="true" id="df548415-f171-4b7f-b3cf-190219a159a2" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,7 @@
       <workItem from="1695578621410" duration="4500000" />
       <workItem from="1695652089237" duration="19631000" />
       <workItem from="1695711936498" duration="1251000" />
-      <workItem from="1695718855366" duration="4919000" />
+      <workItem from="1695718855366" duration="5600000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -99,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695733733253</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1695734549420</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695734549420</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,11 +110,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="add missing library" />
     <MESSAGE value="add missing library 2" />
     <MESSAGE value="edit title" />
     <MESSAGE value="fix sqlite3 issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix sqlite3 issue" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

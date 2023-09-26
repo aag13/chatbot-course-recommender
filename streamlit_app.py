@@ -201,6 +201,7 @@ if prompt := st.chat_input("What is up?"):
         # message_placeholder.markdown(full_response)
 
         try:
+            print("question: ", current_question)
             result = qa_agent({"question": current_question, "chat_history": [(chat[0], chat[1]) for chat in chat_history]})
             db_query = result["generated_question"]
             db_response = result["source_documents"]
@@ -208,7 +209,7 @@ if prompt := st.chat_input("What is up?"):
             # print("="*20)
             # print(db_query)
             # print("-" * 10)
-            # print(db_response)
+            print(db_response)
             # print("-" * 10)
             # print(current_answer)
             # print("="*20)
