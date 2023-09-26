@@ -19,9 +19,6 @@ from langchain.chains import RetrievalQA,  ConversationalRetrievalChain
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate, SystemMessagePromptTemplate
 
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 SYSTEM_MESSAGE = {
     "role": "system",
