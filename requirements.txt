@@ -3,4 +3,4 @@ openai
 langchain
 chromadb
 lark
-pysqlite3-binary
+pysqlite3
